@@ -7,7 +7,7 @@ ENV INIGO_VERSION=0.7.1
 # imperial or metric
 ENV INIGO_UNITS=imperial
     
-ENV WEEWX_URL=http://weewx.com/downloads/weewx-$WEEWX_VERSION.tar.gz
+ENV WEEWX_URL=https://github.com/weewx/weewx/archive/v$WEEWX_VERSION.tar.gz
 ENV OWM_URL=http://lancet.mit.edu/mwall/projects/weather/releases/weewx-owm-$OWM_VERSION.tgz
 ENV INTERCEPTOR_URL=https://github.com/matthewwall/weewx-interceptor/archive/master.zip
 ENV INFLUX_URL=https://github.com/matthewwall/weewx-influx/archive/master.zip
