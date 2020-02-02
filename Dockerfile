@@ -1,4 +1,4 @@
-FROM project42/syslog-alpine:3.11
+FROM project42/syslog-alpine:3.10
 
 ENV WEEWX_VERSION=3.9.2
 ENV OWM_VERSION=0.8
