@@ -1,7 +1,7 @@
-FROM project42/syslog-alpine:3.8
+FROM project42/syslog-alpine:3.11
 
-ENV WEEWX_VERSION=3.9.1
-ENV OWM_VERSION=0.7
+ENV WEEWX_VERSION=3.9.2
+ENV OWM_VERSION=0.8
 ENV INIGO_VERSION=0.7.1
 
 # imperial or metric
